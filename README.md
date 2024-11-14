@@ -10,10 +10,10 @@ Here are some key diagrams from the project:
 ![Helmet Detection Flowchart](helmet_detection_flowchart.png) <!-- Replace with the actual image filename -->
 
 ### Object Detection Flowchart
-![Object Detection Flowchart](images/object_detection_flowchart.png) <!-- Replace with the actual image filename -->
+![Object Detection Flowchart](object_detection_flowchart.png) <!-- Replace with the actual image filename -->
 
 ### ABS Working Flowchart
-![ABS Working Flowchart](images/abs_working_flowchart.png) <!-- Replace with the actual image filename -->
+![ABS Working Flowchart](abs_working_flowchart.png) <!-- Replace with the actual image filename -->
 
 ## Problem Statement
 Pune, a bustling city with a high volume of two-wheeler traffic, faces significant road safety challenges. The increasing number of accidents, often due to the lack of helmet usage and inadequate awareness of surroundings, necessitates innovative technological solutions.
