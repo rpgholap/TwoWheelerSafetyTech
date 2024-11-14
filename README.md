@@ -36,4 +36,6 @@ Pune, a bustling city with a high volume of two-wheeler traffic, faces significa
    - Integrates ABS to prevent wheel lock-up and reduce wear and tear on brakes.
    - Enhances rider safety by maintaining control during emergency stops.
 
+## Document Link
+You can view the complete project document here: [Project Document](BGSW_WE_ARE_THE_PROTECTOR_SANJIVANI_COLLEGE.pdf)
 
