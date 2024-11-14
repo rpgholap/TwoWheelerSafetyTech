@@ -1,27 +1,44 @@
-# Two-Wheeler Safety System Solution Proposal for Pune
+# BOROSA Hackathon 2024 - Two-Wheeler Safety System
 
-This repository contains the solution proposal for a **Two-Wheeler Safety System**, developed for the **Bosch Road Safety Hackathon 2024**. 
-The goal is to address safety issues for two-wheeler riders by proposing a system that includes helmet detection, obstacle avoidance through radar technology, and an anti-lock braking system (ABS).
+## Overview
+This repository contains the solution document for the **BOROSA Hackathon 2024**, which focuses on enhancing road safety for two-wheeler commuters in Pune. The project aims to develop a comprehensive safety system that includes helmet detection, obstacle identification using radar technology, and an Anti-Lock Braking System (ABS).
 
-## Project Overview: 
-The solution proposes an integrated safety system focusing on:
-- **Helmet Detection**: A machine learning approach to identify helmet usage.
-- **Obstacle Detection**: A radar-based system for real-time obstacle detection to prevent collisions.
-- **Anti-lock Braking System (ABS)**: A braking system to enhance control and reduce brake wear during emergencies.
+## Diagrams
+Here are some key diagrams from the project:
 
-### Contents
-- [Abstract](docs/abstract.md)
-- [Problem Statement](docs/problem_statement.md)
-- [Proposed Solution](docs/proposed_solution.md)
-- [System Architecture](docs/system_architecture.md)
-- [Literature Review](references/literature_review.md)
-- [Presentation Slides](presentation/two_wheeler_safety_system_presentation.pptx)
+### Helmet Detection Flowchart
+![Helmet Detection Flowchart](helmet_detection_flowchart.png) <!-- Replace with the actual image filename -->
 
-## Key Documents
-- **Abstract**: A high-level summary of the solution.
-- **Problem Statement**: Outlines the specific safety issues the solution aims to address.
-- **Proposed Solution**: Details the conceptual approach, including planned technologies and components.
-- **System Architecture**: Describes the theoretical design, showing how the components will work together.
-- **Literature Review**: Summarizes research on helmet detection, radar systems, and ABS technology for two-wheelers.
+### Object Detection Flowchart
+![Object Detection Flowchart](images/object_detection_flowchart.png) <!-- Replace with the actual image filename -->
 
+### ABS Working Flowchart
+![ABS Working Flowchart](images/abs_working_flowchart.png) <!-- Replace with the actual image filename -->
 
+## Problem Statement
+Pune, a bustling city with a high volume of two-wheeler traffic, faces significant road safety challenges. The increasing number of accidents, often due to the lack of helmet usage and inadequate awareness of surroundings, necessitates innovative technological solutions.
+
+## Project Objectives
+- **Helmet Detection**: Implement a machine learning algorithm to detect whether riders are wearing helmets.
+- **Obstacle Detection**: Utilize radar technology to identify obstacles in the rider's path.
+- **Anti-Lock Braking System (ABS)**: Integrate ABS to prevent wheel lock-up during sudden braking, enhancing rider control and safety.
+
+## Solution Components
+1. **Helmet Detection**:
+   - Utilizes Convolutional Neural Networks (CNNs) for real-time helmet detection.
+   - Employs image processing techniques to classify riders as "with helmet" or "without helmet."
+
+2. **Radar-Based Object Detection**:
+   - Implements radar technology to detect objects within a specified range.
+   - Uses ultrasonic sensors and Arduino for processing and alerting riders of nearby obstacles.
+
+3. **Anti-Lock Braking System (ABS)**:
+   - Integrates ABS to prevent wheel lock-up and reduce wear and tear on brakes.
+   - Enhances rider safety by maintaining control during emergency stops.
+
+## Installation
+To run the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
